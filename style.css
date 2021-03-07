@@ -1,10 +1,24 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
 #container {
     display: flex;
     width: 100%;
     height:100%;
     justify-content: center;
     align-items:center;
-    background-color: lightgray;
+    background-color: whitesmoke;
+    
 }
 #card {
     display:flex;
@@ -13,16 +27,44 @@
     flex-direction:column;
     min-height: 120px;
     max-height: 200px;
-    background-color: lightskyblue;
+    background-color: white;
     padding: 1em;
     align-items: center;
+    border-radius: 24px;
+    -webkit-box-shadow: 6px -1px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -1px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px -1px 12px 0px rgba(0,0,0,0.75);
+    
 }
 #username {
     margin: 1em;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: transparent;
+
+}
+#username:focus {
+    outline: one;
+    background-color: whitesmoke;
+
 }
 #password {
     margin: 1em;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: transparent;
 }
 #signIn {
+        margin: 1em;
+}
+#button {
     margin: 1em;
+    background-color: royalblue;
+    border-radius: 5px;
+    -webkit-box-shadow: 6px 7px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 12px -6px rgba(0,0,0,0.75);
+    
 }
